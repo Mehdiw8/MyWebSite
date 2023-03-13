@@ -1,0 +1,21 @@
+-npx create-react-app portfolio
+
+-install material, react-helmet-async, react-icons, react-router-dom
+-delete Additional file and text
+
+-Do Rtl with Mui( read document (search right-to -left) )
+change favicon site : https://www.pikpng.com/ 
+site:https://favicon.io/  (png --> ico)
+htmfile dir =rtl
+
+- add custom Font vazir , Roboto : dl font and use transfonter.org to prepare for browser useable then customize for MUI
+
+-public : css js fonts
+----src :
++assets 
++componenets :  folder ui(only use for Ui components)
++helpers
++services
+
+palette : materialpalette , dracula theme
+
