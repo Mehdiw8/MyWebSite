@@ -1,0 +1,21 @@
+First Install Material icon theme extension vs code
+
+** Normal Projects : 
+src -> helpers or utils(code haye Carbordi) -> data.jsx , dataUtils.jsx ,data.utils.jsx ...
+src -> containers -> App , sidBarContainers ,contentContainers ...
+src -> Layout or templates -> layout , thems (if we have one theme ->theme -> index.js)
+themes -> (if we have one theme -> theme1,theme2,...)Or( darkTheme.jsx , lightTheme.jsx ,...)
+src -> context
+src -> redux-comp... read extension doc
+src -> services
+src -> pages(newpattern)
+
+**Big Projects
+src -> base -> components , containers , helpers (in components -> Buttons , cards -> card.jsx , btn.jsx)
+src -> search -> co ...not reComended
+
+Tip : مسیر ساختار دهی رو منطقش درک کن هرچیزی در مکان خودش هر فایل تنها یک وظیفه داشته باشه هر کامپوننت تنها  یک وظیفه داشته باشه هرجا میبینی یک کار چندین بار انجام شده قانون درای زیر پا گذاشته شده یک بار بنویس و چندین بار استفاده کن
+
+Tip : کی این ریفکتور می آد؟ در وسط کار یا آخر کار شما باید بیای حالا تمیز کنی و ری فکتور انجام  بدی
+
+Tip : از همون اول نمیتونی بهترین وتمیز ترین کد رو بنویسی اگر همش بخوای فکر دیزاین پترن باشی دیگه فکرت روی یک خط نیست و نتیجه لازم رو نمیگیری پس تو باید فقط ذهنت روی یک خط  باشه و رو همونم تمرکز کنی روی پیاده سازی ایده تمام و کمال تمرکز کن . پیاده سازی کن و بعدش بیا ریفکتور کن کدتو تمیز کن

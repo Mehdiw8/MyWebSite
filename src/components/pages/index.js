@@ -1,0 +1,9 @@
+export { default as Skill } from './Skill';
+export { default as Pages } from './Pages';
+export { default as DevInfo } from './DevInfo.jsx';
+export { default as Skills } from './Skills.jsx';
+export { default as DevWorkCount } from './DevWorkCount.jsx';
+export { default as EduTimL } from './EduTimL.jsx';
+export { default as ExperTimL } from './ExperTimL.jsx';
+export { default as WorkSamWrap } from './WorkSamWrap.jsx';
+export { default as ContactForm } from './ContactForm.jsx';
