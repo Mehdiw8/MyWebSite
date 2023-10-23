@@ -11,7 +11,7 @@ const CustomChip = ({ icon, bColor, textAlign, cColor, text }) => {
   }, []);
   return (
     <Slide
-      {...(loading ? { timeout: 500 } : {})}
+      {...(loading ? { timeout: 300 } : {})}
       direction="down"
       in={loading}
       style={{

@@ -22,7 +22,7 @@ const SidebarFooter = () => {
           variant="subtitle2"
           sx={{ textAlign: 'center', color: 'text.primary' }}
         >
-          طراحی شده با ریکت{' '}
+          🚀{' '}
           <sup>
             <MdFavorite color="red" />
           </sup>

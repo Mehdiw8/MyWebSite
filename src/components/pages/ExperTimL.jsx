@@ -1,14 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import {
   TimelineSeparator,
   TimelineDot,
   TimelineContent,
   TimelineItem,
   Timeline,
-} from '@mui/lab/';
-import { Typography, Slide } from '@mui/material';
-import { FcBriefcase } from 'react-icons/fc';
-import { experiance } from '../../constants/resume';
+  TimelineConnector,
+} from "@mui/lab/";
+import { Typography, Slide } from "@mui/material";
+import { FcBriefcase } from "react-icons/fc";
+import { experiance } from "../../constants/resume";
 
 const ExperTimL = () => {
   const [loading, setLoading] = useState(false);
@@ -27,20 +28,20 @@ const ExperTimL = () => {
           in={loading}
           {...(loading ? { timeout: 1000 } : {})}
           style={{
-            transitionDelay: loading ? `${index + 5}99ms` : '0ms',
+            transitionDelay: loading ? `${index + 2}99ms` : "0ms",
           }}
         >
           <Timeline position="left" key={index}>
             <TimelineItem>
               <TimelineSeparator>
                 <TimelineDot variant="outlined" color="warning">
-                  <FcBriefcase style={{ fontSize: '25px' }} />
+                  <FcBriefcase style={{ fontSize: "25px" }} />
                 </TimelineDot>
-                {/* {index !== 1 && <TimelineConnector />} */}
+                {index !== 2 && <TimelineConnector />}
               </TimelineSeparator>
               <TimelineContent
                 sx={{
-                  textAlign: 'left',
+                  textAlign: "left",
                 }}
               >
                 <Typography variant="caption" color="gray">

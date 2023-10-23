@@ -27,7 +27,7 @@ const EduTimL = () => {
           {...(loading ? { timeout: 1000 } : {})}
           in={loading}
           style={{
-            transitionDelay: loading ? `${index * 3 + 5}99ms` : '0ms',
+            transitionDelay: loading ? `${index *2 + 2}99ms` : '0ms',
           }}
         >
           <Timeline position="left" key={index}>

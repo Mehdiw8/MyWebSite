@@ -10,7 +10,7 @@ export const devWorkInfo = [
   {
     title: 'تعداد پروژه های انجام شده',
     icon: <FcAddDatabase style={{ fontSize: 25 }} />,
-    totalNumber: '4',
+    totalNumber: '16',
   },
   {
     title: 'تعداد پروژه های در حال انجام',

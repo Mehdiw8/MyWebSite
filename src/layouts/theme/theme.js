@@ -1,5 +1,6 @@
 import { createTheme } from '@mui/material/styles';
 export const lightTheme = createTheme({
+  
   direction: 'rtl',
   typography: {
     fontFamily: 'Vazir,Roboto',

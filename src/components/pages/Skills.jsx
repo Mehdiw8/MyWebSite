@@ -4,7 +4,7 @@ import { skills } from '../../constants/skills';
 import { Skill } from './';
 const Skills = () => {
   const {
-    gitSkills,
+    nextSkills,
     reactSkills,
     materialUi,
     jsSkills,
@@ -91,9 +91,9 @@ const Skills = () => {
         value={mui}
       />
       <Skill
-        color={gitSkills.color}
-        icon={gitSkills.icon}
-        name={gitSkills.name}
+        color={nextSkills.color}
+        icon={nextSkills.icon}
+        name={nextSkills.name}
         value={git}
       />
     </Box>
